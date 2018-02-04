@@ -29,9 +29,9 @@ AlexDemo.java
 
 release/
 
-rule-engine/target/*
-rule-system/target/*
-rule-service/target/*
+provider/target/*
+consumer/target/*
+service/target/*
 
 
 
