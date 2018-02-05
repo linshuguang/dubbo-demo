@@ -1,6 +1,6 @@
 package com.github.linshuguang;
 
-import name.lsg.service.DemoService;
+import name.lsg.mailbot.service.MailbotService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -13,7 +13,7 @@ public class Application {
             context.start();
 
             //获取远程服务代理
-            DemoService demonService = (DemoService) context.getBean("demoService");
+            MailbotService demonService = (MailbotService) context.getBean("demoService");
             // 调用方法
             String sayHello = demonService.sayHello("world");
 

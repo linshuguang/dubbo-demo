@@ -6,15 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-provider" />
         <module name="consumer" />
-        <module name="provider" />
+        <module name="facade-provider" />
+        <module name="mailbot-provider" />
+        <module name="rule-provider" />
         <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chatbot-provider" target="1.7" />
       <module name="consumer" target="1.5" />
       <module name="dubbo-demo" target="1.5" />
+      <module name="facade-provider" target="1.7" />
+      <module name="mailbot-provider" target="1.7" />
       <module name="provider" target="1.7" />
+      <module name="rule-provider" target="1.7" />
       <module name="service" target="1.7" />
     </bytecodeTargetLevel>
   </component>

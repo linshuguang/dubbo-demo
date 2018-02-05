@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/chatbot-provider/chatbot-provider.iml" filepath="$PROJECT_DIR$/chatbot-provider/chatbot-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo.iml" filepath="$PROJECT_DIR$/dubbo-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facade-provider/facade-provider.iml" filepath="$PROJECT_DIR$/facade-provider/facade-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mailbot-provider/mailbot-provider.iml" filepath="$PROJECT_DIR$/mailbot-provider/mailbot-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rule-provider/rule-provider.iml" filepath="$PROJECT_DIR$/rule-provider/rule-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
     </modules>
   </component>

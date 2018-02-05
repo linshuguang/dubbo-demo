@@ -1,1 +1,6 @@
-E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\service\DemoService.java
+E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\rule\service\RuleService.java
+E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\common\Message.java
+E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\common\TextMsg.java
+E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\mailbot\service\MailbotService.java
+E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\facade\service\FacadeService.java
+E:\project\dubbo\dubbo-demo\service\src\main\java\name\lsg\chatbot\service\ChatbotService.java
