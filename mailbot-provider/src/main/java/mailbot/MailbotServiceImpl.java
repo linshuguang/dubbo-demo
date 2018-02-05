@@ -1,5 +1,6 @@
 package mailbot;
 
+import name.lsg.ServiceProvider;
 import name.lsg.common.Message;
 import name.lsg.common.TextMsg;
 import name.lsg.mailbot.service.MailbotService;
@@ -7,7 +8,7 @@ import name.lsg.mailbot.service.MailbotService;
 /**
  * Created by kenya on 2018/2/5.
  */
-public class MailbotServiceImpl implements MailbotService {
+public class MailbotServiceImpl extends ServiceProvider implements MailbotService {
 
     @Override
     public String sayHello(String var1){

@@ -1,6 +1,7 @@
-name\lsg\common\TextMsg.class
 name\lsg\rule\service\RuleService.class
-name\lsg\chatbot\service\ChatbotService.class
 name\lsg\common\Message.class
-name\lsg\mailbot\service\MailbotService.class
 name\lsg\facade\service\FacadeService.class
+name\lsg\common\TextMsg.class
+name\lsg\chatbot\service\ChatbotService.class
+name\lsg\ServiceProvider.class
+name\lsg\mailbot\service\MailbotService.class

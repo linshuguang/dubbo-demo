@@ -1,6 +1,7 @@
 package facade;
 
 
+import name.lsg.ServiceProvider;
 import name.lsg.chatbot.service.ChatbotService;
 import name.lsg.facade.service.FacadeService;
 import name.lsg.mailbot.service.MailbotService;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Service;
 /**
  * Created by kenya on 2018/2/5.
  */
-public class FacadeServiceImpl implements FacadeService{
+public class FacadeServiceImpl extends ServiceProvider implements FacadeService{
 
     @Autowired
     MailbotService mailbotService;
